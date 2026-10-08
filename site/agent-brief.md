@@ -1,6 +1,6 @@
 # Agent brief: build under the Leader Interface System authority
 
-Authority: `packs/leader` v0.2.0 (format 0.1). An editorial interface system derived from The Economist's Marber design system and live product for the Design Authority synthesis experiment. Serif-led, rules-based, blue interactive layer; no Economist marks reproduced.
+Authority repo: `authority-leader` (v0.2.0, format 0.1). An editorial interface system derived from The Economist's Marber design system and live product for the Design Authority synthesis experiment. Serif-led, rules-based, blue interactive layer; no Economist marks reproduced.
 
 Reference build (what "look like this" means for this authority):
   https://designauthority.seanyong.xyz/authorities/leader/site/
@@ -22,7 +22,7 @@ Build an interface that conforms to THIS authority alone.
    python3 tools/da.py --pack packs/leader resolve "primary button" --json
 3. Inspect every record before adopting it:
    python3 tools/da.py --pack packs/leader inspect <id>
-4. Adopt only records from packs/leader. Never borrow another authority's
+4. Adopt only records shipped by this authority. Never borrow another's
    components, values or classes.
 5. When the authority is silent: build from the nearest recorded pieces, keep
    the improvisation visible (an HTML comment plus data-improv="<reason>"),
