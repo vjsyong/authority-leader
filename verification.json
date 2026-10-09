@@ -2,7 +2,7 @@
  "contract_version": "0.1",
  "authority": "leader",
  "pack_version": "leader 0.2.0",
- "scope_note": "Verification contract for the leader authority (verification experiment, 2026-10-08). The instrument (body.marks-on, .mark-lbl, #markToggle) is review tooling and excluded from palette and shape scans.",
+ "scope_note": "Verification contract for the leader authority (verification experiment, 2026-10-08). The instrument (body.marks-on, .mark-lbl, #markToggle, #provPanel, .prov-*) is review tooling and excluded from palette and shape scans. Interaction censuses skip the instrument subtree.",
  "checks": [
   {
    "id": "leader/rounded-interactive",
@@ -166,7 +166,7 @@
      "relation": "declarations",
      "property": "box-shadow",
      "allow_regex": "^none$|^var\\(--none\\)$",
-     "except_line_regex": "marks-on|mark-lbl|mark-toggle|\\[data-mark\\]|prov-"
+     "exclude_line_regex": "marks-on|mark-lbl|mark-toggle|\\[data-mark\\]|prov-|provPanel"
     }
    ]
   },
@@ -378,7 +378,7 @@
      "allow_rgb": [
       "0, 0, 0, 0"
      ],
-     "exclude_line_regex": "marks-on|mark-lbl|mark-toggle|\\[data-mark\\]|prov-"
+     "exclude_line_regex": "marks-on|mark-lbl|mark-toggle|\\[data-mark\\]|prov-|provPanel"
     }
    ],
    "note": "Allowlist = the build's declared family tokens + ramp (red: E3120B/F6423C/FEE7E7/CC100A; blue: 2E45B8/1F2E7A/475ED1 + tints; ink-greys). Outside hues (green/teal/orange) flag."
