@@ -17,7 +17,16 @@
         "field styling (rounded, 1px soft border)",
         "mark the improvisation and report a gap"
       ],
-      "kind": "fallback"
+      "kind": "fallback",
+      "source": {
+        "repo": "marber.economist.com + economist.com live product",
+        "path": "Authored policy (see exception)"
+      },
+      "exception": {
+        "reason": "Authored policy for needs the system does not cover: platform defaults with the recorded field styling, marked and reported as a gap. No source decision states this policy.",
+        "basis": "Synthesis protocol phase 5; field styling follows L-11.",
+        "approval": "approved (owner decision page, 2026-10-11)"
+      }
     },
     {
       "id": "fallback/selection",
@@ -36,7 +45,14 @@
         "mark the improvisation",
         "report a gap if the need recurs"
       ],
-      "kind": "fallback"
+      "kind": "fallback",
+      "source": {
+        "repo": "marber.economist.com + economist.com live product",
+        "path": "Gate 2 accepted decisions: L-12"
+      },
+      "compiled_from": [
+        "L-12"
+      ]
     },
     {
       "id": "fallback/ruled-panel",
@@ -56,7 +72,16 @@
         "no scrim, no motion",
         "mark the improvisation"
       ],
-      "kind": "fallback"
+      "kind": "fallback",
+      "source": {
+        "repo": "marber.economist.com + economist.com live product",
+        "path": "Authored policy (see exception)"
+      },
+      "exception": {
+        "reason": "Authored policy for interstitials (wizard/onboarding): ruled panels in the page flow, marked and reported. No dialog canon was endorsed at Gate 2 (L-19 was left undefined), so the 'no dialog canon' premise stands; flagged for owner review.",
+        "basis": "Synthesis protocol phase 5; vessel styling cites L-07.",
+        "approval": "approved (owner decision page, 2026-10-11)"
+      }
     }
   ]
 }
