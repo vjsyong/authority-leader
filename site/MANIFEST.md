@@ -1,16 +1,16 @@
 # Archive manifest - leader
 
-Authority: `authorities/leader` @ 0.2.0 - generated 2026-10-09T14:44:54+00:00 UTC
+Authority: `authorities/leader` @ 0.2.0 - generated 2026-10-11T09:26:03+00:00 UTC
 
 | file | role | sha256 (first 16) | size |
 |---|---|---|---|
-| `.site-state.json` | refresh state (pack hash, version, artifact set) | `8c6f68ed54605612` | 946 |
+| `.site-state.json` | refresh state (pack hash, version, artifact set) | `bd8d84012fae4d7b` | 946 |
 | `agent-brief.md` | asset | `6d64c5e6c51c8d31` | 4513 |
 | `audit.jsonl` | machine-recorded authority call trace | `f7da1d1de4e6142f` | 59041 |
 | `brief.md` | build brief | `df3478fd0113ece0` | 2259 |
-| `index.html` | page | `befe10fea6606719` | 35528 |
+| `index.html` | page | `b65e0f5aefa07242` | 35175 |
 | `log.md` | build log (agent, 1:1 with audit.jsonl) | `fc60e498bf67f5f8` | 30662 |
-| `refresh-log.md` | refresh log (generated layers vs pack) | `1025c01ee4f493ac` | 3522 |
+| `refresh-log.md` | refresh log (generated layers vs pack) | `de790ecf628323c9` | 3708 |
 | `run-authority` | audited runner (build-time tool) | `8c8eb36c2f2b22d7` | 1033 |
 | `styles.css` | stylesheet | `9837a09e1ab90009` | 12665 |
 | `fonts/ArchivoBlack-Regular.ttf` | brand font file | `dd9a89a019b4849f` | 90988 |
