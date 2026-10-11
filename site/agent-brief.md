@@ -1,6 +1,6 @@
 # Agent brief: build under the Leader Interface System authority
 
-Authority repo: `authority-leader` (v0.2.0, format 0.1). An editorial interface system derived from The Economist's Marber design system and live product for the Design Authority synthesis experiment. Serif-led, rules-based, blue interactive layer; no Economist marks reproduced.
+Authority repo: `authority-leader` (v0.3.0-rc1, format 0.1). An editorial interface system derived from The Economist's Marber design system and live product for the Design Authority synthesis experiment. Serif-led, rules-based, blue interactive layer; no Economist marks reproduced.
 
 Reference build (what "look like this" means for this authority):
   https://designauthority.seanyong.xyz/authorities/leader/site/

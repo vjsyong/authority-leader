@@ -31,3 +31,5 @@
 - 2026-10-11T09:26:03+00:00 UTC: traceability gate: clean
 - 2026-10-11T09:31:16+00:00 UTC: pack 0.2.0 -> 0.2.0; artefacts 15 -> 15; version stamps updated: 0; stale notice: none/cleared
 - 2026-10-11T09:31:16+00:00 UTC: traceability gate: clean
+- 2026-10-11T09:53:09+00:00 UTC: pack 0.2.0 -> 0.3.0-rc1; artefacts 15 -> 15; version stamps updated: 5; stale notice: none/cleared
+- 2026-10-11T09:53:09+00:00 UTC: traceability gate: clean

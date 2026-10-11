@@ -1,6 +1,6 @@
 {
- "pack_hash": "2007f708a35398c1753b41c84a96b7aac194ffabef2caaf2e2a2c41efd5a11c1",
- "version": "0.2.0",
+ "pack_hash": "f0eebc582fd1d004e0e544184c6956b0722eafafc3102be6b019ff7dfc8c4515",
+ "version": "0.3.0-rc1",
  "ids": [
   "component/action",
   "component/field",
@@ -38,5 +38,5 @@
    "token-set/type-scale"
   ]
  },
- "refreshed_at": "2026-10-11T09:31:16+00:00"
+ "refreshed_at": "2026-10-11T09:53:09+00:00"
 }
